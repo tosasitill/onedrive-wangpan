@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "tosasitill's OneDrive",
+  title: "Spencer's OneDrive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/',
@@ -39,6 +39,7 @@ module.exports = {
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
     'Powered by <a href="https://github.com/spencerwooo/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a>. Made with ❤ by SpencerWoo.',
+
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
@@ -63,5 +64,5 @@ module.exports = {
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
   // without timezone and replacing T with space.
-  datetimeFormat: 'new Date().toLocaleString('zh-cn')',
+  datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
 }
