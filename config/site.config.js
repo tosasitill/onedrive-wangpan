@@ -20,7 +20,7 @@ module.exports = {
   title: "tosastill's CloudDrive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/',
+  baseDirectory: '/备份',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -38,7 +38,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'coolapk@july288 Powered by <a href="https://github.com/spencerwooo/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">点我跳转gayhub</a>. Made with tosastill',
+    'coolapk@tosasitill Powered by <a href="https://github.com/spencerwooo/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">点我跳转github</a>. Made with tosastill',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
